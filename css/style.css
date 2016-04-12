@@ -19,7 +19,7 @@ h2 {
 	margin-right: 5%;
 }
 
-.sigma-icon {
+.lava-icon {
 	font-size: 72px;
 	padding: 30px;
 }
@@ -69,32 +69,32 @@ h2 {
 	font-size: 18px;
 }
 
-.sigma-hr {
+.lava-hr {
    	margin: 15px -15px !important;
 }
 
-.sigmapad {
+.lavapad {
 	padding: 0 1px 1px 0 !important;
 	margin: 0 !important;
 }
 
-.sigmano {
+.lavano {
 	padding: 0 !important;
 	margin: 0 !important;
 }
 
-.sigma-home h1 {
+.lava-home h1 {
 	font-size: 70px;
 	font-family: 'Amatic SC', cursive;
 	color: #fff;
 }
-.sigma-home p {
+.lava-home p {
 	font-size: 24px;
 	color: #fff;
 	line-height: 44px;
 }
 
-.sigma-home {
+.lava-home {
 	padding: 0px;
 	padding-top: 150px;
 	padding-bottom: 150px;
@@ -103,33 +103,41 @@ h2 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-right: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: relative;
+        color: #fff;
+
 }
 
 .space40 {
 	margin-bottom: 40px;
 }
 
-.sigma-start {
+.lava-start {
 	margin: 10px;
 	padding: 16px 40px;
 	min-width: 200px;
 	font-size: 22px;
 }
 
-.sigma-content {
+.lava-content {
 	padding: 60px 40px;
 	border-right: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	min-height: 280px;
 }
 
-.sigma-section-header {
+.lava-section-header {
 	padding: 0px;
 	padding-top: 100px;
 	padding-bottom: 80px;
-	background: url(../images/tm-sigma-00.jpg) no-repeat center center fixed; 
+	background: url(../images/tm-lava-00.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -138,7 +146,7 @@ h2 {
 	border-bottom: 1px solid #fff;
 }
 
-.sigma-home p, .sigma-content p, .sigma-section-header p {
+.lava-home p, .lava-content p, .lava-section-header p {
 	padding: 20px 0 0 0;
 }
 
@@ -148,58 +156,79 @@ h2 {
 
 /* Sigma BG Colors --- BEGIN */
 
-.sigma-bg-lightgray {
+.lava-bg-lightgray {
 	background-color: #E4E8E8;
 }
 
-.sigma-bg-gray {
+.lava-bg-gray {
 	background-color: #999;
 	color: #FFF;
 }
 
-.sigma-bg-darkgray {
+.lava-bg-darkgray {
 	background-color: #666;
 	color: #FFF;
 }
 
-.sigma-bg-black {
+.lava-bg-black {
 	background-color: #444;
 	color: #FFF;
 }
 
-.sigma-bg-blue {
+.lava-bg-blue {
 	background-color: #28B;
 	color: #FFF;
 }
 
-.sigma-bg-red {
+.lava-bg-red {
 	background-color: #A52;
 	color: #FFF;
 }
 
-.sigma-bg-pink {
+.lava-bg-pink {
 	background-color: #EBE;
 	color: #000;
 }
 
-.sigma-bg-lightblue {
+.lava-bg-lightblue {
 	background-color: #92C4F8;
 	color: #000;
 }
 
-.sigma-bg-yellow {
+.lava-bg-yellow {
 	background-color: #A4A430;
 	color: #FFF;
 }
 
-.sigma-bg-green {
+.lava-bg-green {
 	background-color: #496;
 	color: #FFF;
 }
 
+.btn-border{
+	padding: 15px 30px;
+	border: 3px solid #fff;
+	border-radius: 0px;
+	color: #fff;
+	margin: 10px;
+        -webkit-transition: border-color 0.4s, color 0.4s;
+        transition: border-color 0.4s, color 0.4s;
+        transition: 0.4s;
+}
+
+.btn-border:hover{
+        background: #fff;
+        color: #000;
+        border-color: #fff;
+}
+
+.row i{
+	margin-right: 10px;
+}
+
 /* Sigma BG Colors --- END */
 
-.sigma-copyright {
+.lava-copyright {
 	margin: 0;
 	padding: 10px 0 30px 0;
 	font-size: 14px;
@@ -217,7 +246,7 @@ h2 {
 	h2 {
 		font-size: 24px;
 	}
-	.sigma-icon {
+	.lava-icon {
 		font-size: 48px;
 		padding: 20px;
 	}
@@ -225,14 +254,14 @@ h2 {
 		font-size: 14px;
 		padding-top: 10px;
 	}
-	.sigma-content {
+	.lava-content {
 		padding: 30px 20px;
 		min-height: 200px;
 	}
-	.sigma-home h1 {
+	.lava-home h1 {
 		font-size: 40px;
 	}
-	.sigma-home p {
+	.lava-home p {
 		font-size: 18px;
 		line-height: 36px;
 	}
@@ -249,14 +278,14 @@ h2 {
 		padding: 5px 10px;
 		font-size: 16px;
 	}
-	.sigma-home h1 {
+	.lava-home h1 {
 		font-size: 30px;
 	}
-	.sigma-home p {
+	.lava-home p {
 		font-size: 16px;
 		line-height: 28px;
 	}
-	.sigma-content {
+	.lava-content {
 		padding: 20px;
 		min-height: 100px;
 	}
