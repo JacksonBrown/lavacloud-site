@@ -1,0 +1,342 @@
+
+body {
+    	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 34px;
+}
+
+h1 {
+	font-size: 34px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.container-fluid {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.lava-icon {
+	font-size: 72px;
+	padding: 30px;
+}
+
+.contact-icon {
+	font-size: 30px;
+	padding: 0 20px 0 0;
+	min-width: 50px;
+}
+
+.site-title {
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.site-title h1 {
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+}
+
+.site-title h2 {
+	color: #888;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+
+.main-menu {
+	margin-top: 60px;
+}
+
+.navbar {
+	float: right;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.nav-link {
+	padding: 10px 15px;
+	font-size: 18px;
+}
+
+.lava-hr {
+   	margin: 15px -15px !important;
+}
+
+.lavapad {
+	padding: 0 1px 1px 0 !important;
+	margin: 0 !important;
+}
+
+.lavano {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.lava-home h1 {
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+.lava-home p {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	line-height: 44px;
+}
+
+.lava-home {
+	padding: 0px;
+	padding-bottom: 150px;
+	/*background: url(../images/nature.jpg) no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: relative;
+        color: #fff;
+	overflow: hidden;
+
+}
+
+.space40 {
+	margin-bottom: 40px;
+}
+
+.lava-start {
+	margin: 10px;
+	padding: 16px 40px;
+	min-width: 200px;
+	font-size: 22px;
+}
+
+.lava-content {
+	padding: 60px 40px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	min-height: 280px;
+}
+
+.lava-section-header {
+	padding: 0px;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	background: url(../images/nature.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+
+.lava-home p, .lava-content p, .lava-section-header p {
+	padding: 20px 0 0 0;
+}
+
+.form-group {
+	margin: 20px 0;
+}
+
+/* Sigma BG Colors --- BEGIN */
+
+.lava-bg-lightgray {
+	background-color: #E4E8E8;
+}
+
+.lava-bg-gray {
+	background-color: #999;
+	color: #FFF;
+}
+
+.lava-bg-darkgray {
+	background-color: #666;
+	color: #FFF;
+}
+
+.lava-bg-black {
+	background-color: #444;
+	color: #FFF;
+}
+
+.lava-bg-blue {
+	background-color: #28B;
+	color: #FFF;
+}
+
+.lava-bg-red {
+	background-color: #A52;
+	color: #FFF;
+}
+
+.lava-bg-pink {
+	background-color: #EBE;
+	color: #000;
+}
+
+.lava-bg-lightblue {
+	background-color: #92C4F8;
+	color: #000;
+}
+
+.lava-bg-yellow {
+	background-color: #A4A430;
+	color: #FFF;
+}
+
+.lava-bg-green {
+	background-color: #496;
+	color: #FFF;
+}
+
+.btn-border{
+	padding: 15px 30px;
+	border: 3px solid #fff;
+	border-radius: 0px;
+	color: #fff;
+	margin: 10px;
+        -webkit-transition: border-color 0.4s, color 0.4s;
+        transition: border-color 0.4s, color 0.4s;
+        transition: 0.4s;
+}
+
+.btn-border:hover{
+        background: #fff;
+        color: #000;
+        border-color: #fff;
+}
+
+.row i{
+	margin-right: 10px;
+}
+
+
+.lava-copyright {
+	margin: 0;
+	padding: 10px 0 30px 0;
+	font-size: 14px;
+}
+
+.mask{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.7;
+	z-index: 0;
+}
+
+.mask-2{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.4;
+	z-index: 0;
+	transition: 0.6s;
+}
+
+video#bgVideo {
+  	position: absolute; // Play the video in full screen mode
+ 	top: 0px; 
+  	left: 0px; 
+  	min-width: 100%; 
+  	min-height: 100%;
+  	z-index: -1; // Put the video behind all other elements
+}
+
+.splash-text{
+	margin-top: 150px;
+}
+
+.col-img{
+	padding: 10px;
+}
+
+.white-box{
+	background-color: #fff;
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+@media (max-width:1330px) {
+	body {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	h1 {
+		font-size: 28px;
+	}
+	
+	h2 {
+		font-size: 24px;
+	}
+	.lava-icon {
+		font-size: 48px;
+		padding: 20px;
+	}
+	.site-title h2 {
+		font-size: 14px;
+		padding-top: 10px;
+	}
+	.lava-content {
+		padding: 30px 20px;
+		min-height: 200px;
+	}
+	.lava-home h1 {
+		font-size: 40px;
+	}
+	.lava-home p {
+		font-size: 18px;
+		line-height: 36px;
+	}
+}
+
+@media (max-width:990px) {
+	.main-menu {
+		margin: 0px;
+	}
+}
+
+@media (max-width:767px) {
+	.nav-link {
+		padding: 5px 10px;
+		font-size: 16px;
+	}
+	.lava-home h1 {
+		font-size: 30px;
+	}
+	.lava-home p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.lava-content {
+		padding: 20px;
+		min-height: 100px;
+	}
+}
