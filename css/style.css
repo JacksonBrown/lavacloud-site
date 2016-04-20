@@ -84,8 +84,8 @@ h2 {
 }
 
 .lava-home h1 {
-	font-size: 50px;
-	font-family: 'Raleway', sans-serif;
+	font-size: 80px;
+	font-family: 'Bangers', cursive;
 	color: #fff;
 }
 .lava-home p {
@@ -280,8 +280,7 @@ video#bgVideo {
 .white-box{
 	background-color: #fff;
 	margin-bottom: 20px;
-	height: 100%;
-	width: 100%;
+	overflow: hidden;
 }
 
 .white-box h1{
@@ -291,6 +290,91 @@ video#bgVideo {
 .white-box p {
 	padding: 10px;
 }
+
+.hover-shade{
+	height: 300px;
+	background-color: #000;
+  	position: absolute;
+	z-index: 100;
+	opacity: 0.8;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	transition: 0.6s;
+}
+
+.hover-shade:hover{
+	opacity: 0;
+}
+
+
+.protect-image{
+	position: relative;
+	overflow: hidden;
+}
+
+/* MENU */
+
+.menu-toggle{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	font-size: 40px;
+	color: #000;
+}
+
+.menu-toggle:hover{
+	color: red;
+}
+
+.menu{
+	width: 100%;
+	display: block;
+	background: #333;
+	height: 300px;
+	top: 0;
+	top: -300px;
+	position: fixed;
+	z-index: 100;
+	text-align: center;
+	transition: top 0.2s;
+}
+
+.menu.nav-expanded{
+	top: 0;
+}
+
+.menu .close{
+	color: #fff;
+	margin-right: 10px;
+	margin-top:10px;
+}
+
+.menu h3{
+	margin-top:50px;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+.menu .nav{
+	padding: 0;
+}
+
+.menu .nav > li > a{
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+
+.menu .nav > li > a:hover,
+.menu .nav > li > a:focus{
+	background: transparent;
+	color: #fff;
+}
+
+/* END MENU */
 
 @media (max-width:1330px) {
 	body {
@@ -347,4 +431,11 @@ video#bgVideo {
 		padding: 20px;
 		min-height: 100px;
 	}
+	.lava-home {
+		background: url(../images/unnamed.jpg);
+	}
+	video{
+		display: none;
+	}
+
 }

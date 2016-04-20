@@ -84,8 +84,8 @@ h2 {
 }
 
 .lava-home h1 {
-	font-size: 50px;
-	font-family: 'Raleway', sans-serif;
+	font-size: 80px;
+	font-family: 'Bangers', cursive;
 	color: #fff;
 }
 .lava-home p {
@@ -279,10 +279,121 @@ video#bgVideo {
 
 .white-box{
 	background-color: #fff;
-	padding: 20px;
-	height: 100%;
-	width: 100%;
+	margin-bottom: 20px;
+	overflow: hidden;
 }
+
+.white-box h1{
+	padding: 10px;
+}
+
+.white-box p {
+	padding: 10px;
+}
+
+.hover-shade{
+	height: 300px;
+	background-color: #000;
+  	position: absolute;
+	z-index: 100;
+	opacity: 0.8;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	transition: 0.6s;
+}
+
+.hover-shade:hover{
+	opacity: 0;
+}
+
+
+.protect-image{
+	position: relative;
+	overflow: hidden;
+}
+
+/* MENU */
+
+.menu-toggle{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	font-size: 40px;
+	color: #000;
+}
+
+.menu-toggle:hover{
+	color: redx;
+}
+
+.menu{
+	width: 300px;
+	display: block;
+	background: #333;
+	height: 100%;
+	top: 0;
+	right: -300px;
+	position: fixed;
+	z-index: 100;
+	text-align: center;
+	transition: right 0.4s;
+}
+
+.menu.nav-expanded{
+	right: 0;
+}
+
+.menu .close{
+	color: #fff;
+	margin-right: 10px;
+	margin-top:10px;
+}
+
+.menu h3{
+	margin-top:50px;
+	text-transform: uppercase;
+}
+
+.menu .nav{
+	padding: 0;
+}
+
+.menu .nav > li > a{
+	color: #fff;
+}
+
+.menu .nav > li > a:hover,
+.menu .nav > li > a:focus{
+	background: transparent;
+	color: #1E6EB3;
+}
+
+.menu .social-icons{
+	margin-top: 50px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.menu .social-icons li{
+	margin-right: 10px;
+	float: none;
+	display: inline-block;
+}
+
+.menu .social-icons li:last-child{
+	margin-right: 0;
+}
+
+.menu .social-icons > li > a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+
+/* END MENU */
 
 @media (max-width:1330px) {
 	body {

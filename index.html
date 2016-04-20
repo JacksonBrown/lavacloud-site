@@ -12,9 +12,8 @@
     	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Raleway|Montserrat:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
     	<title>Hey we're Lava Cloud</title>
-
-	<script href="js/app.js"></script>
 </head>
 
 <body>
@@ -26,11 +25,24 @@
       		<source src="images/spaceinv.mp4" type="video/mp4">
     	</video>
 	<div id="mask" class="mask"></div>
+
+	<a href="" class="menu-toggle" id="nav-expander" style="color: #fff;"><i class="fa fa-bars"></i></a>
+
+	<nav class="menu">
+		<a href="#" class="close"><i class="fa fa-close"></i></a>
+		<h3>Site Map</h3>
+		<ul class="nav">
+			<li><a data-scroll href="#home">Home</a></li>
+			<li><a data-scroll href="#services">About</a></li>
+			<li><a data-scroll href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
 	<div class="container-fluid">
         	<div class="row single-page-nav">
         		<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center splash-text">
-            			<h1>Welcome to Lava Cloud</h1>
-
+            			<h1>Lava Cloud</h1>
+				<i class="fa fa-diamond" style="font-size: 50px;" aria-hidden="true"></i>
             			<p>We are an online community dedicated to generating funny and entertaining content.</p>
 
                 		<a href="#gallery" class="btn btn-border"><i class="fa fa-facebook"></i>Facebook</a>
@@ -45,40 +57,48 @@
 <section id="gallery" style="background-color: #efefef;">
 
 	<div class="container" style="padding: 20px;">
+		<div class="col-md-4">
+			<div class="white-box">
 
-			<div class="col-md-6">
-				<div class="white-box">
-					<img src="images/gungame.png" style="width: 100%; height: 100%;" />
+				<div class="protect-image">
+					<div class="hover-shade"></div>
+					<img src="images/gungame.png" style="width: 100%; height: 300px;" />
+				</div>
+
+				<div class="protect-text">
 					<h1>I AM THE HEADER </h1>
 					<p> i am a paragraph </p>
 				</div>
 			</div>
+		</div>	
+		<div class="col-md-4">
+			<div class="white-box">
 
-			<div class="col-md-6">
-				<div class="white-box">
-					<div class="image">
-					<img src="images/codzep1.png" style="width: 100%; height: 100%;" />
-					</div>
+				<div class="protect-image">
+					<div class="hover-shade"></div>
+					<img src="images/gungame.png" style="width: 100%; height: 300px;" />
+				</div>
+
+				<div class="protect-text">
 					<h1>I AM THE HEADER </h1>
 					<p> i am a paragraph </p>
 				</div>
 			</div>
+		</div>	
+		<div class="col-md-4">
+			<div class="white-box">
 
-			<div class="col-md-6">
-				<div class="white-box">
-					<img src="images/codzep2.png" style="width: 100%; height: 100%;" />
+				<div class="protect-image">
+					<div class="hover-shade"></div>
+					<img src="images/gungame.png" style="width: 100%; height: 300px;" />
+				</div>
+
+				<div class="protect-text">
 					<h1>I AM THE HEADER </h1>
 					<p> i am a paragraph </p>
 				</div>
 			</div>
-
-			<div class="col-md-6">
-				<div class="white-box">
-					<img src="images/cod-bo2.png" style="width: 100%; height: 100%;" />
-					<h1>I AM THE HEADER </h1>
-					<p> i am a paragraph </p>
-				</div>
-			</div>
+		</div>	
 	</div>
 
 </section>
@@ -171,36 +191,20 @@
 	<script src="js/bootstrap.min.js"></script>
         <script src="js/ekko-lightbox.min.js"></script>
         <script src="js/jquery.singlePageNav.min.js"></script>
-        <script>
 
-        	// Prevent console.log from generating errors in IE for the purposes of the demo
-            	if ( ! window.console ) console = { log: function(){} };
+	<!-- Load jQuery -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 
-            	// The actual plugin
-            	$('.single-page-nav').singlePageNav({
-                	offset: $('.single-page-nav').outerHeight(),
-                	filter: ':not(.external)',
-                	updateHash: true,
-                	beforeStart: function() {
-                    		console.log('begin scrolling');
-                	},
-                		onComplete: function() {
-                    		console.log('done scrolling');
-                	}
-            	});
-			
-		$(document).ready(function ($) {
+	<!-- Load Booststrap -->
+	<script type="text/javascript" src="js/bootstrap.js>"></script>
 
-			// delegate calls to data-toggle="lightbox"
-			$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-				event.preventDefault();
-				return $(this).ekkoLightbox({
-					always_show_close: true
-					});
-				});
-			});
-			
-        </script>
+	<!-- LOAD SMOOTH SCROLL -->
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+
+	<!-- Load custom js for theme -->
+	<script type="text/javascript" src="js/app.js"></script>
+
+
 
 </body>
 </html>
