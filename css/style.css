@@ -332,9 +332,9 @@ video#bgVideo {
 	width: 100%;
 	display: block;
 	background: #333;
-	height: 300px;
+	height: 330px;
 	top: 0;
-	top: -300px;
+	top: -330px;
 	position: fixed;
 	z-index: 100;
 	text-align: center;
@@ -364,7 +364,6 @@ video#bgVideo {
 .menu .nav > li > a{
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	padding: 10px 20px;
 	font-size: 20px;
 }
 

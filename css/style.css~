@@ -325,24 +325,24 @@ video#bgVideo {
 }
 
 .menu-toggle:hover{
-	color: redx;
+	color: red;
 }
 
 .menu{
-	width: 300px;
+	width: 100%;
 	display: block;
 	background: #333;
-	height: 100%;
+	height: 320px;
 	top: 0;
-	right: -300px;
+	top: -320px;
 	position: fixed;
 	z-index: 100;
 	text-align: center;
-	transition: right 0.4s;
+	transition: top 0.2s;
 }
 
 .menu.nav-expanded{
-	right: 0;
+	top: 0;
 }
 
 .menu .close{
@@ -354,6 +354,7 @@ video#bgVideo {
 .menu h3{
 	margin-top:50px;
 	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
 }
 
 .menu .nav{
@@ -362,35 +363,14 @@ video#bgVideo {
 
 .menu .nav > li > a{
 	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
 }
 
 .menu .nav > li > a:hover,
 .menu .nav > li > a:focus{
 	background: transparent;
-	color: #1E6EB3;
-}
-
-.menu .social-icons{
-	margin-top: 50px;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.menu .social-icons li{
-	margin-right: 10px;
-	float: none;
-	display: inline-block;
-}
-
-.menu .social-icons li:last-child{
-	margin-right: 0;
-}
-
-.menu .social-icons > li > a{
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
+	color: #fff;
 }
 
 /* END MENU */
@@ -450,4 +430,11 @@ video#bgVideo {
 		padding: 20px;
 		min-height: 100px;
 	}
+	.lava-home {
+		background: url(../images/unnamed.jpg);
+	}
+	video{
+		display: none;
+	}
+
 }
