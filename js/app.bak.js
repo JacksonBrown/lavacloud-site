@@ -88,4 +88,3 @@ $(window).resize(function () {
     homeFullScreen();
 });
 
-

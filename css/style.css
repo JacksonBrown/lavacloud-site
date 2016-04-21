@@ -374,6 +374,20 @@ video#bgVideo {
 	color: #fff;
 }
 
+.slideshow{
+	height: 350px;
+	margin-top: 5%;
+}
+
+.slideshow > div{
+	position: absolute;
+	
+}
+
+.slideshow-header{
+	padding: 20px;
+}
+
 /* END MENU */
 
 @media (max-width:1330px) {

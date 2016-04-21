@@ -85,7 +85,8 @@ h2 {
 
 .lava-home h1 {
 	font-size: 80px;
-	font-family: 'Bangers', cursive;
+	font-family: 'Raleway', cursive;
+	text-transform: uppercase;
 	color: #fff;
 }
 .lava-home p {
@@ -320,7 +321,7 @@ video#bgVideo {
 	position: absolute;
 	right: 15px;
 	top: 15px;
-	font-size: 40px;
+	font-size: 30px;
 	color: #000;
 }
 
@@ -332,9 +333,9 @@ video#bgVideo {
 	width: 100%;
 	display: block;
 	background: #333;
-	height: 320px;
+	height: 330px;
 	top: 0;
-	top: -320px;
+	top: -330px;
 	position: fixed;
 	z-index: 100;
 	text-align: center;
@@ -371,6 +372,21 @@ video#bgVideo {
 .menu .nav > li > a:focus{
 	background: transparent;
 	color: #fff;
+}
+
+.slideshow{
+	height: 350px;
+	margin-top: 5%;
+}
+
+.slideshow > div{
+	position: absolute;
+	
+}
+
+.slideshow-header{
+	height: 50px;
+	padding: 20px;
 }
 
 /* END MENU */
