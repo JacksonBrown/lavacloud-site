@@ -85,7 +85,8 @@ h2 {
 
 .lava-home h1 {
 	font-size: 80px;
-	font-family: 'Bangers', cursive;
+	font-family: 'Raleway', cursive;
+	text-transform: uppercase;
 	color: #fff;
 }
 .lava-home p {
@@ -320,7 +321,7 @@ video#bgVideo {
 	position: absolute;
 	right: 15px;
 	top: 15px;
-	font-size: 40px;
+	font-size: 30px;
 	color: #000;
 }
 

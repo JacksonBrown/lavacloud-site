@@ -14,6 +14,60 @@
 	<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
     	<title>Hey we're Lava Cloud</title>
+
+	<style type="text/css">
+	       @-webkit-keyframes glow-anim {
+                        25% {
+                                text-shadow: 0 0 25px #FF3E34;
+                                color: #FF3E34;
+                        }
+                        50% {
+                                text-shadow: 0 0 25px #60FF67;
+                                color: #60FF67;
+                        }
+                        75% {
+                                text-shadow: 0 0 25px #4C79FF;
+                                color: #4C79FF;
+                        }
+                }
+                @-moz-keyframes glow-anim {
+                        25% {
+                                text-shadow: 0 0 25px #FF3E34;
+                                color: #FF3E34;
+                        }
+                        50% {
+                                text-shadow: 0 0 25px #60FF67;
+                                color: #60FF67;
+                        }
+                        75% {
+                                text-shadow: 0 0 25px #4C79FF;
+                                color: #4C79FF;
+                        }
+                }
+                @keyframes glow-anim {
+                        25% {
+                                text-shadow: 0 0 25px #FF3E34;
+                                color: #FF3E34;
+                        }
+                        50% {
+                                text-shadow: 0 0 25px #60FF67;
+                                color: #60FF67;
+                        }
+                        75% {
+                                text-shadow: 0 0 25px #4C79FF;
+                                color: #4C79FF;
+                        }
+                }
+
+		.glow-animate{
+			-webkit-animation: glow-anim 12s infinite;
+			-moz-animation: glow-anim 12s infinite;
+			animation: glow-anim 12s infinite;
+		}
+
+	</style>
+
+
 </head>
 
 <body>
@@ -24,6 +78,7 @@
 	<video id="bgVideo" autoplay loop poster="image.png">
       		<source src="images/spaceinv.mp4" type="video/mp4">
     	</video>
+
 	<div id="mask" class="mask"></div>
 
 	<a href="" class="menu-toggle" id="nav-expander" style="color: #fff;"><i class="fa fa-bars"></i></a>
@@ -45,8 +100,12 @@
         	<div class="row single-page-nav">
         		<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center splash-text">
             			<h1>Lava Cloud</h1>
-				<i class="fa fa-diamond" style="font-size: 50px;" aria-hidden="true"></i>
-            			<p>We are an online community dedicated to generating funny and entertaining content.</p>
+
+				<div class="glow-animate">
+					<i class="fa fa-usd" style="font-size: 70px;" aria-hidden="true"></i><i class="fa fa-usd" style="font-size: 70px;" aria-hidden="true"></i><i class="fa fa-usd" style="font-size: 70px;" aria-hidden="true"></i>
+				</div>
+
+            			<p>We are an online community dedicated to generating <span style="color: red">funny</span> and <span style="color: red">entertaining</span> content.</p>
 
                 		<a href="#gallery" class="btn btn-border"><i class="fa fa-facebook"></i>Facebook</a>
                 		<a href="#about" class="btn btn-border"><i class="fa fa-play"></i>Youtube</a>
@@ -106,7 +165,7 @@
 
 </section>
 
-<section id="contact">
+<section id="contact" style="">
 	<div class="container-fluid" style="width: 100%; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; overflow: hidden; display: none;">
 
         	<div class="row lava-section-header">
@@ -183,8 +242,14 @@
                     		| design: <a rel="nofollow" href="http://www.ohhi.net23.net" target="_parent">ohhi</a></p>
             		</div>
             
-            	<div class="lava-copyright col-lg-4 single-page-nav text-right">
-            		<p><a href="#home">Go to top</a></p>
+            	<div class="lava-copyright col-lg-4 single-page-nav text-right" style="font-size: 30px;">
+			<ul>
+				<a class="social" href="#"><i class="fa fa-facebook"></i></a>
+				<a class="social" href="#"><i class="fa fa-youtube"></i></a>
+				<a class="social" href="#"><i class="fa fa-google"></i></a>
+				<a class="social" href="#"><i class="fa fa-instagram"></i></a>
+			</ul>
+
             	</div>
 	</div>
 
