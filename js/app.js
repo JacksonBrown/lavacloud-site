@@ -1,5 +1,12 @@
 'use strict';
 
+/*
+ * A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+ */
+
  // Open offsite navigation.
  $('#nav-expander').on('click', function(e) {
     e.preventDefault();
@@ -17,16 +24,4 @@ $('.menu  a').on('click', function(e) {
     e.preventDefault();
     $('nav').removeClass('nav-expanded');
 });
-
-
-$("#slideshow > div:gt(0)").hide();
-
-setInterval(function () {
-	$("#slideshow > div:first")
-		.slideUp(1000)
-		.next()
-		.fadeIn(1000)
-		.end()
-		.appendTo("#slideshow");
-}, 5000);
 
