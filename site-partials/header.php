@@ -1,4 +1,4 @@
-<section id="home" class="lava-home home home-fullscreen">
+<section id="home" class="lava-home home-fullscreen">
 	<div id="mask" class="mask"></div>
 	<a href="" class="menu-toggle" id="nav-expander" style="color: #fff;"><i class="fa fa-gamepad"></i></a>
 	<nav class="menu">
@@ -6,11 +6,11 @@
 		<h3>Site Map</h3>
 		<br />
 		<ul class="nav">
-			<li><a href="#home">Home</a></li>
+			<li><a data-scroll href="#home">Home</a></li>
 			<br />
-			<li><a href="#services">About</a></li>
+			<li><a data-scroll href="#services">About</a></li>
 			<br />
-			<li><a href="#contact">Contact</a></li>
+			<li><a data-scroll href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 	<div class="container-fluid">
