@@ -17,8 +17,8 @@ include('footer.php');
         			pauseOnHover: true,
 	        		restartDelay: 2000
     			},
-    			navigation: false,
-			pagination: false
+    			navigation: true,
+			pagination: true
 	      	});
     	});
 </script>

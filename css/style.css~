@@ -140,57 +140,6 @@ h2 {
 	margin: 20px 0;
 }
 
-/* Sigma BG Colors --- BEGIN */
-
-.lava-bg-lightgray {
-	background-color: #E4E8E8;
-}
-
-.lava-bg-gray {
-	background-color: #999;
-	color: #FFF;
-}
-
-.lava-bg-darkgray {
-	background-color: #666;
-	color: #FFF;
-}
-
-.lava-bg-black {
-	background-color: #444;
-	color: #FFF;
-}
-
-.lava-bg-blue {
-	background-color: #28B;
-	color: #FFF;
-}
-
-.lava-bg-red {
-	background-color: #A52;
-	color: #FFF;
-}
-
-.lava-bg-pink {
-	background-color: #EBE;
-	color: #000;
-}
-
-.lava-bg-lightblue {
-	background-color: #92C4F8;
-	color: #000;
-}
-
-.lava-bg-yellow {
-	background-color: #A4A430;
-	color: #FFF;
-}
-
-.lava-bg-green {
-	background-color: #496;
-	color: #FFF;
-}
-
 .btn-border{
 	padding: 15px 30px;
 	border: 3px solid #fff;
@@ -232,8 +181,9 @@ h2 {
 }
 
 .white-box{
+	border-top: 10px solid #cecece;
+	border-bottom: 10px solid #cecece;
 	background-color: #fff;
-	margin-bottom: 20px;
 	overflow: hidden;
 }
 
@@ -327,6 +277,10 @@ h2 {
 	color: #fff;
 }
 
+
+
+/* END MENU */
+
 .slideshow{
 	height: 350px;
 	margin-top: 5%;
@@ -337,15 +291,28 @@ h2 {
 	
 }
 
-.slideshow-header{
-	padding: 20px;
-}
-
 #slides{
 	display: none;
 }
 
-/* END MENU */
+.column-container{
+	margin-bottom: 15%;
+	background-color: #cecece;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.column-container i{
+	font-size: 50px;
+	padding-top: 20px;
+}
+
+.column-header{
+	margin-bottom: 5%;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
 
 @media (max-width:1330px) {
 	body {
@@ -403,13 +370,7 @@ h2 {
 		min-height: 100px;
 	}
 	.lava-home {
-		background: none;
-	}
-	video{
-		display: none;
-	}
-	#gallery{
-		display: none;
+		background: url('../images/8-bit-landscape-3.png');
 	}
 
 }
