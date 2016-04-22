@@ -24,5 +24,7 @@
 	</script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
   	<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
 </body>
 </html>

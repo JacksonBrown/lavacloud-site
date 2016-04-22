@@ -1,13 +1,13 @@
-<section id="gallery" style="background: url('images/pattern_bg.png') repeat fixed 100%; box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);">
+<section id="gallery" class="gallery">
 	<div class="container">
 		<header class="column-header" style="padding-top: 10%;">
 			<h1 class="text-center">Recent Videos</h1>
 		</header>
-		<div id="slides" style="width: 100%; height: 100%; margin-bottom: 10%; display: none;">
-      			<img src="images/hh.png"      alt="Let's Play: Hooker Hideout">
-      			<img src="images/codzep1.png" alt="Let's Play: COD Zombies | Episode One">
-      			<img src="images/codzep2.png" alt="Let's Play: COD Zombies | Episode Two">
-      			<img src="images/cod-bo2.png" alt="Let's Play: COD Black Ops 2">
+		<div id="slides" class="slides">
+      			<img src="images/hh.jpg"      alt="Let's Play: Hooker Hideout">
+      			<img src="images/codzep1.jpg" alt="Let's Play: COD Zombies | Episode One">
+      			<img src="images/codzep2.jpg" alt="Let's Play: COD Zombies | Episode Two">
+      			<img src="images/same.jpg" alt="Let's Play: COD Black Ops 2">
     		</div>
 
 		<header class="column-header">
