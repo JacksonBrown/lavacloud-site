@@ -341,6 +341,10 @@ h2 {
 	padding: 20px;
 }
 
+#slides{
+	display: none;
+}
+
 /* END MENU */
 
 @media (max-width:1330px) {
@@ -400,12 +404,6 @@ h2 {
 	}
 	.lava-home {
 		background: none;
-	}
-	video{
-		display: none;
-	}
-	#gallery{
-		display: none;
 	}
 
 }
