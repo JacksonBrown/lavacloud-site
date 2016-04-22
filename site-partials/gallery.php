@@ -6,10 +6,10 @@
 			</div>
 		</header>
 		<div id="slides" style="width: 100%; height: 100%; margin-bottom: 10%; display: none;">
-      			<a href="#"><img src="images/hh.png"      alt="Let's Play: Hooker Hideout"></a>
-      			<img src="images/codzep1.png" alt="Let's Play: COD Zombies | Episode One">
-      			<img src="images/codzep2.png" alt="Let's Play: COD Zombies | Episode Two">
-      			<img src="images/cod-bo2.png" alt="Let's Play: COD Black Ops 2">
+      			<img src="../images/hh.png"      alt="Let's Play: Hooker Hideout">
+      			<img src="../images/codzep1.png" alt="Let's Play: COD Zombies | Episode One">
+      			<img src="../images/codzep2.png" alt="Let's Play: COD Zombies | Episode Two">
+      			<img src="../images/cod-bo2.png" alt="Let's Play: COD Black Ops 2">
     		</div>
 	</div>
 </section>
