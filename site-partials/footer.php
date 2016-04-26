@@ -1,10 +1,5 @@
-<footer>
-	<div class="container-fluid">
-    		<div class="row">
-            		<div class="col-md-12">
-            			<hr class="lava-hr">
-            		</div>
-        	</div>
+<footer style="background-color: #333; color: #fff; padding: 20px;">
+	<div class="container">
         	<div class="row">
         		<div class="lava-copyright col-lg-8">
             			<p>Copyright © 2016 Lava Cloud

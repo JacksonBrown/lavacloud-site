@@ -11,10 +11,13 @@
     	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic'>
 	<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     	<title>Hey we're Lava Cloud</title>
 </head>
 <body id ="site-content">
   	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/bxlisder/jquery.bxslider.css">
+	<script src="js/bxslider/jquery.bxslider.min.js"></script>
 	<script>
 		if( $(window).width() > 767 ){
 			$('#site-content').load('site-partials/full.php');

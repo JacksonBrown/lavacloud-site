@@ -1,5 +1,6 @@
 <?php
 include('header.php');
+include('splash.php');
 include('gallery.php');
 include('contact.php');
 include('footer.php');
