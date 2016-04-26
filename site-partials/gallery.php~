@@ -3,7 +3,7 @@
 		<header class="column-header" style="padding-top: 10%;">
 			<h1 class="text-center">Recent Videos</h1>
 		</header>
-		<div id="slides" class="slides" style="border: 10px solid #fff;">
+		<div id="slides" class="slides">
       			<img src="images/hh.jpg"      alt="Let's Play: Hooker Hideout">
       			<img src="images/codzep1.jpg" alt="Let's Play: COD Zombies | Episode One">
       			<img src="images/codzep2.jpg" alt="Let's Play: COD Zombies | Episode Two">

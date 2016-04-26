@@ -20,9 +20,13 @@
 	<script src="js/bxslider/jquery.bxslider.min.js"></script>
 	<script>
 		if( $(window).width() > 767 ){
-			$('#site-content').load('site-partials/full.php');
+			$(document).ready( function() {
+				$('#site-content').load('site-partials/full.php');
+			});
 		}else{
-			$('#site-content').load('site-partials/mobile.php');
+			$(document).ready( function() {
+				$("#site-content").load('site-partials/mobile.php');
+			});
 		}
 	</script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>

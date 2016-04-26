@@ -1,5 +1,28 @@
 <section id="home" class="lava-home home-fullscreen">
 	<div id="mask" class="mask"></div>
+
+	<header id="lava-header" class="lavacloud-header">
+		<div class="col-md-12 header-logo">
+			<div class="col-md-6 header-div text-left">
+				<h1 style="font-size: 40px; padding-top: 30px;">Lava Cloud</h1>
+			</div>
+			<div class="col-md-6">
+				<a href="" class="menu-toggle" id="nav-expander" style="position: fixed; margin: 0; padding: 0; color: #fff;"><i class="fa fa-bars"></i></a>
+			</div>
+			<!-- Offsite navigation -->
+			<nav class="menu">
+				<a href="#" class="close"><i class="fa fa-close"></i></a>
+				<br />
+				<h3>Site Map</h3>
+				<ul class="nav">
+					<li><a data-scroll href="#home">Home</a></li>
+					<li><a data-scroll href="#gallery">Videos</a></li>
+					<li><a data-scroll href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div> 
+	</header>
+
 	<div class="container-fluid">
         	<div class="row single-page-nav">
 			<ul class="bxslider">
@@ -25,8 +48,8 @@
         		<!--<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center splash-text">-->
 			<div class="col-md-12 col-md-offset-1 text-left splash-text">
             			<h1>We love to <br />collaborate</h1>
-            			<p>If you're a Youtuber and would like to collab with us, send us an email!</p>
-                		<a href="#about" class="btn btn-border" style="margin-left: 0;"><i class="fa fa-moeny"></i>We Don't Bite</a>
+            			<p>If youwould like to collab with us, send an email!</p>
+                		<a href="#about" class="btn btn-border" style="margin-left: 0;"><i class="fa fa-diamond"></i>We Don't Bite</a>
 			</div>
 			</li>
 
