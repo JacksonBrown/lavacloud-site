@@ -7,10 +7,10 @@
 				<h1 style="font-size: 40px; padding-top: 30px;">Lava Cloud</h1>
 			</div>
 			<div class="col-md-6">
-				<a href="" class="menu-toggle" id="nav-expander" style="position: fixed; margin: 0; padding: 0; color: #fff;"><i class="fa fa-bars"></i></a>
+				<a href="" class="menu-toggle" id="nav-expander" style="position: fixed; margin: 0; padding: 0; color: red; z-index: 1000;"><i class="fa fa-bars"></i></a>
 			</div>
 			<!-- Offsite navigation -->
-			<nav class="menu">
+			<nav class="menu" style="z-index: 1001;">
 				<a href="#" class="close"><i class="fa fa-close"></i></a>
 				<br />
 				<h3>Site Map</h3>
