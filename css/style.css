@@ -253,7 +253,7 @@ h2 {
 }
 
 .gallery{
-	background: url('../images/pattern_bg.jpg') fixed;
+	background: #333;
 	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
 }
 

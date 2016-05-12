@@ -1,4 +1,4 @@
-<footer style="background-color: #333; color: #fff; padding: 20px;">
+<footer style="color: #333; padding: 20px;">
 	<div class="container">
         	<div class="row">
         		<div class="lava-copyright col-lg-8">
@@ -7,10 +7,10 @@
             		</div>
             	<div class="lava-copyright col-lg-4 single-page-nav text-right" style="font-size: 30px;">
 			<ul>
-				<a class="social" href="#"><i class="fa fa-facebook"></i></a>
-				<a class="social" href="#"><i class="fa fa-youtube"></i></a>
-				<a class="social" href="#"><i class="fa fa-google"></i></a>
-				<a class="social" href="#"><i class="fa fa-instagram"></i></a>
+				<a style="color: #333;" class="social" href="#"><i class="fa fa-facebook"></i></a>
+				<a style="color: #333;" class="social" href="#"><i class="fa fa-youtube"></i></a>
+				<a style="color: #333;" class="social" href="#"><i class="fa fa-google"></i></a>
+				<a style="color: #333;" class="social" href="#"><i class="fa fa-instagram"></i></a>
 			</ul>
             	</div>
 	</div>

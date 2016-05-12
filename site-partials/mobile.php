@@ -1,5 +1,5 @@
 <?php
-include('splash.php');
+include('splash-no-anim.php');
 include('contact.php');
 include('footer.php');
 ?>
